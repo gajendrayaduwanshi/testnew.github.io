@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <title> </title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <!-- header start -->
+      <nav class="navbar navbar-default main-header">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="javaScript:void(0)" data-toggle="modal" data-target="#login">Login</a></li>
+                  <li><a href="javaScript:void(0" data-toggle="modal" data-target="#signup">Sign Up</a></li>
+                  <li class="contact"><a href="#">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- header end -->
+
+
+      <!-- Banner slider start -->
+      <div id="myCarousel" class="carousel banner-slide slide autoHeight" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner">
+            <div class="item active autoHeight slide1">
+               <div class="content">
+                  <h3>LEARN SWIMMING THE RIGHT WAY WITH US</h3>
+                  <p>LEARN SWIMMING WITH THE BEST FACALITIES AND WORLD CLASS INSTRUTORS </p>
+                  <a href="#">MAKE AN APPOINTMENT </a>
+               </div>
+            </div>
+            <div class="item  autoHeight slide2">
+               <div class="content">
+                  <h3>LEARN SWIMMING THE RIGHT WAY WITH US</h3>
+                  <p>LEARN SWIMMING WITH THE BEST FACALITIES AND WORLD CLASS INSTRUTORS </p>
+                  <a href="#">MAKE AN APPOINTMENT </a>
+               </div>
+            </div>
+            <div class="item  autoHeight slide3">
+               <div class="content">
+                  <h3>LEARN SWIMMING THE RIGHT WAY WITH US</h3>
+                  <p>LEARN SWIMMING WITH THE BEST FACALITIES AND WORLD CLASS INSTRUTORS </p>
+                  <a href="#">MAKE AN APPOINTMENT </a>
+               </div>
+            </div>
+         </div>
+         
+      </div>
+      <!-- Banner slider end -->
+
+      <!-- signup modal start -->
+      <div class="modal fade login" id="signup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                  ×</button>
+                  <h4>Create an Account</h4>
+                  <p>create an account to countinue</p>
+               </div>
+               <div class="modal-body">
+                  <div class="row">
+                     <div class="col-md-12" >
+                        <form role="form" class="form-horizontal">
+                           <div class="form-group">
+                              <label for="usr">Email adress</label>
+                              <input type="text" class="form-control" id="usr">
+                           </div>
+                           <div class="form-group">
+                              <label for="usr">Username</label>
+                              <input type="text" class="form-control" id="usr">
+                           </div>
+                           <div class="form-group">
+                              <label for="pwd">Password</label>
+                              <input type="password" class="form-control" id="pwd">
+                           </div>
+                     </div>
+                     <div class="row">
+                     <div class="col-md-12">
+                     <label class="checkbox-inline"><input type="checkbox" value="">I accpet the terms & conditions</label>
+                     </div>
+                     <div class="col-md-12 text-center mrT25">
+                     <button type="submit" class="btn btn-primary btn-login btn-sm">
+                     Sign Up</button>
+                     </div>
+                     <div class="col-md-12 text-center">
+                     <p class="">Already have an account? <a href="javaScript:void(0)" data-toggle="modal" data-target="#login" data-dismiss="modal">Login</a></p>
+                     </div>
+                     </div>
+                     </form>  
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- signup modal end -->
+
+      <!-- login modal start -->
+      <div class="modal fade login login-pop" id="login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                  ×</button>
+                  <h4>Login to Account</h4>
+                  <p>Please enter your e mail and password to continue</p>
+               </div>
+               <div class="modal-body">
+                  <div class="row">
+                     <div class="col-md-12" >
+                        <form role="form" class="form-horizontal">
+                           <div class="form-group">
+                              <label for="usr">Email adress</label>
+                              <input type="text" class="form-control" id="usr">
+                           </div>
+                           <div class="form-group">
+                              <label for="pwd">Password</label>
+                              <input type="password" class="form-control" id="pwd">
+                           </div>
+                     </div>
+                     <div class="row">
+                     <div class="col-md-12">
+                     <label class="checkbox-inline"><input type="checkbox" value="">Remeber Password</label>
+                     </div>
+                     <div class="col-md-12 text-center mrT25">
+                     <button type="submit" class="btn btn-primary btn-login btn-sm">
+                     Login</button>
+                     </div>
+                     <div class="col-md-12 text-center">
+                     <p class="">Don’t have an account?  <a href="javaScript:void(0)" data-toggle="modal" data-target="#signup" data-dismiss="modal">Sign up</a></p>
+                     </div>
+                     </div>
+                     </form>  
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- login modal end -->
+
+      <!-- js files -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/custom.js"></script>
+      
+   </body>
+</html>
